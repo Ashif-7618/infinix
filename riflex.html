@@ -1,0 +1,129 @@
+<!doctype html>
+<html><head> 
+<title> navigation</title>
+<style>
+*{
+    margin: 0px;
+    padding :0px;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+  background-size: auto;
+     background-image: url('https://www.pexels.com/photo/calm-body-of-lake-between-mountains-346529/');
+     
+}
+.navi{
+    position:relative;
+    height :50px;
+    width: 100%;
+    background :transparent;
+    
+}
+.log{
+    position: absolute ;
+    height:30px;
+    width:30px;
+    background: red;
+    top:10px;
+    left: 10px;
+}
+ul li{
+    margin:10px 5px;
+    display :flex;
+    background:gray;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: 0.2s;
+}
+
+ .list{
+     position:fixed;
+     width: 200px;
+      
+      background:rgba(07,07,07,0.1);
+      transition: 1s;
+      
+      
+  } 
+  .hide{
+     position:fixed;
+     width: 200px;
+     height:100%;
+      background:red;
+      transition: 1s;
+      transform: translatex(-250px);
+      
+  } 
+  h1{
+      padding: 0px 5px;
+      position:absolute;
+      right: 0px;
+      font-family: Cursive;
+      color: blue;
+  }
+ h1 i{
+     font-family: Cursive;
+     color: #00ff00;
+ }
+ .logo{position:absolute;
+ margin: 5px 0px;
+    right:5px;
+    background: transparent; 
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+ }
+ 
+</style>
+</head>
+<body><div class="navi">
+<button class="log"onclick="btn()"></button>
+<div class="logo"><h1><i>A.K</i> corporate</h1></div>
+</div>
+<div class="hide" id="on"><ul>
+<li>home</li>
+<li>bsjeb</li>
+<li>bdjdb</li>
+<li>bdjdhd</li>
+<li>hejebe</li>
+<li>ndjdb</li>
+<li>home</li>
+<li>bsjeb</li>
+<li>bdjdb</li>
+<li>bdjdhd</li>
+<li>hejebe</li>
+<li>ndjdb</li>
+<li>home</li>
+<li>bsjeb</li>
+<li>bdjdb</li>
+<li>bdjdhd</li>
+</ul></div>
+ 
+</body>
+<script>
+function btn() {
+  const div = document.getElementById("on");
+  if (div.className == "list") {
+    div.className = "hide";
+  } else {
+    div.className = "list";
+  }
+}
+
+
+</script>
+</html>
+<p>
+del inspirin i5
+lanovo idea ped 3
+msi modern 14
+
+
+i= 5 
+ram = 8gb
+ssd= 500
+
+risin5 
+</p>
